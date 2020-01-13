@@ -23,4 +23,4 @@ Either runhaskell (runhaskell PushSwap_Checker 1 3 2) or ghc
 
 Once started, the program await for a set of action
 
-Test file medium contain 100k of the possibles actions.
+To test yourself, you can use the provided files like the following : "cat test_100k_actions | runhaskell PushSwap_Checker.hs nbs", without forgetting to replace nbs by the content of the file "test_100k_nbs"
